@@ -5,6 +5,7 @@
     font-family: Ubuntu, Poppins, Roboto, Inter;
     transition: all 0.25s ease-in-out;
     color: white;
+    scroll-behavior: smooth;
     /* border: 1px solid white; */
 }
 .flex-row {
@@ -64,6 +65,7 @@ header a:hover {
     font-size: 8rem;
 }
 .sections {
+    scroll-margin-top: 14rem;
     margin-top: 8rem;
     width: 60%;
 }
@@ -117,9 +119,9 @@ header a:hover {
 }
 #chooseUsTextArea h2 {
     font-size: 2rem;
-    color: #777;
+    color: #bbb;
 }
-#internshipCardsHolder {
+#internshipCardsHolder, #featuresHolder {
     width: 100%;
     padding: 3rem;
     flex-wrap: wrap;
@@ -157,4 +159,20 @@ header a:hover {
     background-color: rgb(115, 2, 121);
     width: 75%;
     font-weight: 600;
+}
+#questions {
+    margin-top: 4rem;
+    width: 85%;
+    align-items: flex-start;
+}
+.question {
+    align-items: flex-start;
+    text-align: start;
+}
+.question h1 {
+    font-size: 2rem;
+}
+.question p {
+    padding: 1rem 0rem;
+    color: #ccc;
 }
