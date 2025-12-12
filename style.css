@@ -57,10 +57,10 @@ header a:hover {
     border: 2px solid white;
 }
 #hero h1 {
-    margin-top: 10rem;
     font-size: 8rem;
 }
-#hero {
+#hero, #chooseUs {
+    margin-top: 8rem;
     width: 60%;
 }
 #hero p {
@@ -82,4 +82,36 @@ header a:hover {
 #hero button:hover {
     border: 2px solid white;
     box-shadow: 0 0 10px 1px white;
+}
+#chooseUs {
+    justify-content: flex-start;
+}
+#collage {
+    border-radius: 3rem;
+    background-color: rgba(100, 100, 100, 0.25);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 15px inset #777, 0 0 30px black;
+    padding: 3rem;
+}
+#collage, #collage div {
+    gap: 2rem;
+}
+#collage img {
+    height: 26rem;
+    border-radius: 2rem;
+}
+#collage div img  {
+    height: 12rem;
+}
+#chooseUsTextArea {
+    align-items: flex-start;
+    padding: 1rem 3rem;
+    
+}
+#chooseUsTextArea h1 {
+    font-size: 6rem;
+}
+#chooseUsTextArea h2 {
+    font-size: 2rem;
+    color: #777;
 }
