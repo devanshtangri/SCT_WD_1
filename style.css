@@ -59,7 +59,8 @@ header a {
 }
 header a:hover {
     background-color: rgba(150, 150, 150, 0.25);
-    border: 2px solid white;
+    border: 2px solid #aaa;
+    box-shadow: 0 0 10px 1px #aaa;
 }
 #hero h1 {
     font-size: 8rem;
@@ -86,8 +87,8 @@ header a:hover {
     font-weight: 500;
 }
 #hero button:hover {
-    border: 2px solid white;
-    box-shadow: 0 0 10px 1px white;
+    border: 2px solid #aaa;
+    box-shadow: 0 0 10px 1px #aaa;
 }
 #chooseUs {
     justify-content: flex-start;
@@ -159,6 +160,11 @@ header a:hover {
     background-color: rgb(115, 2, 121);
     width: 75%;
     font-weight: 600;
+    border: 2px solid transparent;
+}
+.internshipCards a:hover {
+    border: 2px solid #aaa;
+    box-shadow: 0 0 10px 1px #aaa;
 }
 #questions {
     margin-top: 4rem;
