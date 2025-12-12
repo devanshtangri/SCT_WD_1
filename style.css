@@ -32,8 +32,12 @@ body video {
     z-index: -1;
 }
 header {
+    position: sticky;
+    top: 0;
+    left: 0;
     width: 40%;
     height: 10rem;
+    z-index: 1;
 }
 header div {
     gap: 2.5rem;
@@ -59,7 +63,7 @@ header a:hover {
 #hero h1 {
     font-size: 8rem;
 }
-#hero, #chooseUs {
+.sections {
     margin-top: 8rem;
     width: 60%;
 }
@@ -108,10 +112,49 @@ header a:hover {
     padding: 1rem 3rem;
     
 }
-#chooseUsTextArea h1 {
+.sectionTitle {
     font-size: 6rem;
 }
 #chooseUsTextArea h2 {
     font-size: 2rem;
     color: #777;
+}
+#internshipCardsHolder {
+    width: 100%;
+    padding: 3rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.internshipCards {
+    width: 24rem;
+    height: 22rem;
+    justify-content: space-evenly;
+    border-radius: 3rem;
+    background-color: rgba(100, 100, 100, 0.25);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 15px inset #777, 0 0 30px black;
+}
+.internshipCards h1 {
+    font-size: 1.75rem;
+}
+.internshipCards h1, .internshipCards ul, .internshipCards a {
+    width: 90%;
+    text-align: center;
+
+}
+.internshipCards ul {
+    list-style: none;
+}
+.internshipCards li {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: #ccc;
+}
+.internshipCards a {
+    text-decoration: none;
+    padding: 1rem 0rem;
+    border-radius: 2rem;
+    background-color: rgb(115, 2, 121);
+    width: 75%;
+    font-weight: 600;
 }
